@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">MyApp</Link>
+        <Link to="/" class="logo">Au Pain Perdu </Link>
       </div>
-      <div className="navbar-links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+      <div className="nav-links">
+        <Link to="/">Our Menu</Link>
+        <Link to="/about">Find Us</Link>
         <Link to="/contact">Contact</Link>
       </div>
     </nav>
