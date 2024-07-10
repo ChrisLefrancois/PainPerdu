@@ -1,0 +1,47 @@
+/* DelightsBanner.css */
+.delights-banner {
+  background-color: #fdf2e9; /* Adjust this color to match the exact shade */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.delights-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.delights-header p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+.delights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.delight-box {
+  background-color: #f8d3b6; /* Adjust this color to match the exact shade */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  max-width: 300px;
+}
+
+.delight-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.delight-box p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.delight-box a {
+  color: #a05e2c;
+  text-decoration: none;
+  font-weight: bold;
+}
