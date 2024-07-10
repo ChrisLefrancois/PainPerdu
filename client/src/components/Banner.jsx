@@ -8,15 +8,14 @@ const Banner = () => {
       <div className="banner-left">
         {/* Content for the left side */}
         <div>
-          <h2>Left Content</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>#1 Brunch in Montreal</h5>
+          <h1>Delight in Montreal Brunch</h1>
+          <p>Discover BrunchMontreal – the perfect blend of local ingredients and seasonal dishes, right in the heart of Montreal!</p>
           <button>Our Menu</button>
         </div>
       </div>
       <div className="banner-right">
-        {/* Content for the right side */}
-        <h2>Right Content</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <img src="/brunch.jpg" alt="brunch" className="banner-image" />
       </div>
     </div>
   );
